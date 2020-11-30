@@ -1,0 +1,23 @@
+{
+  "name": "node-reptile",
+  "version": "1.0.0",
+  "description": "基于node构建爬虫项目",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "repository": "https://github.com/longzhengyun/node-reptile.git",
+  "author": "Jary <jary0419@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "sqlite3": "^5.0.0",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/puppeteer": "^5.4.0",
+    "@types/sqlite3": "^3.1.6"
+  }
+}
